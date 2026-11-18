@@ -1,0 +1,37 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "params": {
+    "learning_rate": 0.04429960403054077,
+    "max_iter": 500,
+    "max_leaf_nodes": 74,
+    "min_samples_leaf": 85,
+    "l2_regularization": 6.3854562108866615,
+    "max_features": 0.5112936833792026,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "features": [
+    "dist",
+    "dist_rank",
+    "dist_gap",
+    "dist_ratio",
+    "n_cands",
+    "head_diff",
+    "head_diff_w",
+    "head_valid",
+    "speed",
+    "arc_len",
+    "t_pos",
+    "t_outside",
+    "dist_prev",
+    "dist_next",
+    "dist_win",
+    "out_deg",
+    "in_deg",
+    "twoway",
+    "dt_prev",
+    "dt_next"
+  ],
+  "candidate_radius_m": 50.0,
+  "max_candidates": 8
+}
