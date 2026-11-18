@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "learning_rate": 0.04429960403054077,
+    "max_iter": 500,
+    "max_leaf_nodes": 74,
+    "min_samples_leaf": 85,
+    "l2_regularization": 6.3854562108866615,
+    "max_features": 0.5112936833792026
+  },
+  "best_cv_macro_f1": 0.9399909462560472,
+  "n_trials": 15,
+  "cv_folds": 3,
+  "search_seconds": 1252.4357855319977,
+  "sampler": "TPE (seed 42)"
+}
