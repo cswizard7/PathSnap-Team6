@@ -1,0 +1,102 @@
+training rows=1,021,050 obs=179,880 trips=78; student-test rows=113,646 obs=19,160
+nearest-segment baseline (student test): {'precision': 0.5374739039665971, 'recall': 0.539699177191971, 'f1': 0.5385842420438796, 'macro_f1': 0.7226248196059197, 'log_loss': 5.7990108969193, 'top1_acc': 0.5374739039665971, 'route_continuity': 0.802098220317864}
+== LogisticRegression
+  LogisticRegression fold 0: macroF1=0.9228 top1=0.8740
+  LogisticRegression fold 1: macroF1=0.9419 top1=0.9012
+  LogisticRegression fold 2: macroF1=0.9225 top1=0.8758
+  LogisticRegression fold 3: macroF1=0.9534 top1=0.9232
+  LogisticRegression fold 4: macroF1=0.9357 top1=0.8935
+model                                                     LogisticRegression
+family                                                Linear / probabilistic
+config                     StandardScaler + L2 logistic regression, C=1.0...
+cv_macro_f1_mean                                                    0.935249
+cv_macro_f1_std                                                     0.013135
+cv_top1_mean                                                        0.893535
+cv_log_loss_mean                                                     0.13194
+train_macro_f1                                                      0.935134
+train_top1                                                          0.893123
+test_top1                                                           0.872077
+test_macro_f1                                                       0.924184
+test_precision                                                      0.872077
+test_recall                                                         0.875688
+test_f1                                                             0.873879
+test_log_loss                                                       0.131437
+test_route_continuity                                               0.931478
+fit_seconds                                                         1.946577
+n_train_rows                                                         1021050
+inference_ms_per_1k_obs                                             0.565148
+== GaussianNB
+  GaussianNB fold 0: macroF1=0.9115 top1=0.8556
+  GaussianNB fold 1: macroF1=0.9307 top1=0.8823
+  GaussianNB fold 2: macroF1=0.9164 top1=0.8660
+  GaussianNB fold 3: macroF1=0.9357 top1=0.8940
+  GaussianNB fold 4: macroF1=0.9262 top1=0.8778
+model                                                    GaussianNB
+family                                       Linear / probabilistic
+config                     Gaussian Naive Bayes, var_smoothing=1e-9
+cv_macro_f1_mean                                           0.924121
+cv_macro_f1_std                                            0.009986
+cv_top1_mean                                               0.875159
+cv_log_loss_mean                                           0.872249
+train_macro_f1                                             0.924108
+train_top1                                                 0.874956
+test_top1                                                  0.855689
+test_macro_f1                                              0.914312
+test_precision                                             0.855689
+test_recall                                                0.859232
+test_f1                                                    0.857457
+test_log_loss                                              0.953513
+test_route_continuity                                      0.916219
+fit_seconds                                                0.326997
+n_train_rows                                                1021050
+inference_ms_per_1k_obs                                    1.270716
+== DecisionTree
+  DecisionTree fold 0: macroF1=0.9256 top1=0.8787
+  DecisionTree fold 1: macroF1=0.9430 top1=0.9032
+  DecisionTree fold 2: macroF1=0.9201 top1=0.8719
+  DecisionTree fold 3: macroF1=0.9568 top1=0.9289
+  DecisionTree fold 4: macroF1=0.9357 top1=0.8935
+model                                                       DecisionTree
+family                                                        Tree-based
+config                     CART, gini, max_depth=12, min_samples_leaf=50
+cv_macro_f1_mean                                                0.936262
+cv_macro_f1_std                                                 0.014527
+cv_top1_mean                                                    0.895228
+cv_log_loss_mean                                                0.140561
+train_macro_f1                                                   0.94831
+train_top1                                                      0.914832
+test_top1                                                       0.881159
+test_macro_f1                                                   0.929654
+test_precision                                                  0.881159
+test_recall                                                     0.884807
+test_f1                                                         0.882979
+test_log_loss                                                   0.118593
+test_route_continuity                                           0.931305
+fit_seconds                                                    19.349802
+n_train_rows                                                     1021050
+inference_ms_per_1k_obs                                         0.438324
+== HistGradientBoosting
+  HistGradientBoosting fold 0: macroF1=0.9247 top1=0.8772
+  HistGradientBoosting fold 1: macroF1=0.9437 top1=0.9043
+  HistGradientBoosting fold 2: macroF1=0.9246 top1=0.8792
+  HistGradientBoosting fold 3: macroF1=0.9548 top1=0.9255
+  HistGradientBoosting fold 4: macroF1=0.9393 top1=0.8994
+model                                                   HistGradientBoosting
+family                                                              Boosting
+config                     300 iterations, learning_rate=0.1, max_leaf_no...
+cv_macro_f1_mean                                                    0.937426
+cv_macro_f1_std                                                     0.012928
+cv_top1_mean                                                        0.897122
+cv_log_loss_mean                                                    0.123507
+train_macro_f1                                                      0.948451
+train_top1                                                          0.915066
+test_top1                                                           0.886221
+test_macro_f1                                                       0.932704
+test_precision                                                      0.886221
+test_recall                                                          0.88989
+test_f1                                                             0.888052
+test_log_loss                                                       0.114039
+test_route_continuity                                               0.932473
+fit_seconds                                                        17.788364
+n_train_rows                                                         1021050
+inference_ms_per_1k_obs                                              27.7153

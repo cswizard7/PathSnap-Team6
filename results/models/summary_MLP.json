@@ -1,0 +1,21 @@
+{
+  "model":"MLP",
+  "family":"Neural network",
+  "config":"StandardScaler + MLP (64,32) ReLU, Adam lr=1e-3, alpha=1e-4, batch=1024, 20 epochs; fit on 300k-row sample",
+  "cv_macro_f1_mean":0.9376993474,
+  "cv_macro_f1_std":0.0141324701,
+  "cv_top1_mean":0.8976023481,
+  "cv_log_loss_mean":0.1059089852,
+  "train_macro_f1":0.9436433926,
+  "train_top1":0.9071436513,
+  "test_top1":0.882776618,
+  "test_macro_f1":0.9306286953,
+  "test_precision":0.882776618,
+  "test_recall":0.8864315287,
+  "test_f1":0.8846002981,
+  "test_log_loss":0.1029713592,
+  "test_route_continuity":0.9373009367,
+  "fit_seconds":9.106120273,
+  "n_train_rows":300000,
+  "inference_ms_per_1k_obs":4.2223645616
+}

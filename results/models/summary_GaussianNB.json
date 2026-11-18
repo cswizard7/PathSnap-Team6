@@ -1,0 +1,21 @@
+{
+  "model":"GaussianNB",
+  "family":"Linear \/ probabilistic",
+  "config":"Gaussian Naive Bayes, var_smoothing=1e-9",
+  "cv_macro_f1_mean":0.9241211871,
+  "cv_macro_f1_std":0.009985742,
+  "cv_top1_mean":0.875158537,
+  "cv_log_loss_mean":0.8722494943,
+  "train_macro_f1":0.9241076951,
+  "train_top1":0.8749555259,
+  "test_top1":0.8556889353,
+  "test_macro_f1":0.9143115835,
+  "test_precision":0.8556889353,
+  "test_recall":0.8592316965,
+  "test_f1":0.8574566565,
+  "test_log_loss":0.9535130085,
+  "test_route_continuity":0.9162186624,
+  "fit_seconds":0.326996922,
+  "n_train_rows":1021050,
+  "inference_ms_per_1k_obs":1.2707158664
+}

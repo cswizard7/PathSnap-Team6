@@ -1,0 +1,21 @@
+{
+  "model":"KNN",
+  "family":"Instance-based",
+  "config":"StandardScaler + KNN k=25, distance-weighted, Euclidean; fit on 100k-row sample",
+  "cv_macro_f1_mean":0.9303258003,
+  "cv_macro_f1_std":0.0136676332,
+  "cv_top1_mean":0.8854478358,
+  "cv_log_loss_mean":0.2539651356,
+  "train_macro_f1":0.9483096914,
+  "train_top1":0.9148321103,
+  "test_top1":0.8700417537,
+  "test_macro_f1":0.922957452,
+  "test_precision":0.8700417537,
+  "test_recall":0.873643939,
+  "test_f1":0.8718391255,
+  "test_log_loss":0.2188106844,
+  "test_route_continuity":0.9291917929,
+  "fit_seconds":0.032781597,
+  "n_train_rows":100000,
+  "inference_ms_per_1k_obs":1074.9874516179
+}
