@@ -1,0 +1,21 @@
+# raw data is not committed (see README "Data placement")
+data/train/
+data/student_test/
+data/evaluator_test/*
+!data/evaluator_test/README.md
+# regenerable intermediate tables (large)
+results/features/*.parquet
+results/features/*_observations.csv
+results/eda/_labeldist_*.npy
+logs/
+api_requests.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# handoff notes / tooling (not part of submission)
+CLAUDE.md
+tools/
