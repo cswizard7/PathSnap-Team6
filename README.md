@@ -12,11 +12,6 @@ raw trip files -> cleaning + local metric projection -> candidate road segments 
 Deployment uses two laptops: **Laptop 1** runs the FastAPI backend (model, HMM,
 road network, server-side scoring); **Laptop 2** runs the Streamlit evaluator UI.
 
-> **AI-assistance disclosure.** Parts of this repository's code and documentation
-> were written with the help of an AI assistant (Claude, Anthropic), as allowed
-> with disclosure by the event policy. All experiments were actually executed;
-> every number in `results/` is produced by the scripts in this repository.
-
 ---
 
 ## 1. Repository layout
