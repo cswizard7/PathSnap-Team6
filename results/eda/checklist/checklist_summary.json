@@ -1,0 +1,111 @@
+{
+  "trips": {
+    "student_test": 10,
+    "train": 80
+  },
+  "obs_total": {
+    "student_test": 19160,
+    "train": 208417
+  },
+  "obs_min": {
+    "student_test": 262,
+    "train": 361
+  },
+  "obs_median": {
+    "student_test": 1420.0,
+    "train": 1529.0
+  },
+  "obs_max": {
+    "student_test": 3958,
+    "train": 19313
+  },
+  "all_files_present": true,
+  "total_mb": {
+    "student_test": 4.16630859375,
+    "train": 85.58056640625
+  },
+  "columns_consistent": {
+    "track": [
+      "3"
+    ],
+    "nodes": [
+      "2"
+    ],
+    "arcs": [
+      "2"
+    ],
+    "route": [
+      "1"
+    ]
+  },
+  "nan": 0,
+  "out_of_range": 0,
+  "zero_coords": 0,
+  "duplicate_rows": 0,
+  "repeated_positions": 6,
+  "gps_outside_network_bbox": 0,
+  "non_increasing_t": 0,
+  "t_integer_all": false,
+  "t_start_values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    11.0
+  ],
+  "steps_total": 227487,
+  "frac_dt_1s_overall": 0.9667981027487285,
+  "gaps_gt1s": 7550,
+  "gaps_gt5s": 1260,
+  "gaps_gt30s": 135,
+  "gaps_gt300s": 16,
+  "trips_with_gap_gt300s": 11,
+  "nodes_min": 299,
+  "nodes_median": 9305.0,
+  "nodes_max": 155003,
+  "arcs_min": 649,
+  "arcs_median": 18761.5,
+  "arcs_max": 307392,
+  "arcs_bad_node_id": 0,
+  "isolated_nodes_total": 0,
+  "trips_with_isolated": 0,
+  "weak_components_median": 19.0,
+  "weak_components_max": 421,
+  "largest_weak_frac_min": 0.6927966101694916,
+  "largest_weak_frac_median": 0.9801701640086846,
+  "largest_strong_frac_min": 0.6358574610244989,
+  "largest_strong_frac_median": 0.9641911601989523,
+  "self_loops": 24,
+  "duplicate_arcs": 1903,
+  "duplicate_nodes": 92,
+  "twoway_median": 0.9511203120769942,
+  "seg_len_median_m": 25.087309099929243,
+  "route_all_ids_valid": true,
+  "route_connected_frac_min": 0.9813084112149533,
+  "route_connected_frac_mean": 0.9993890160712059,
+  "route_len_min": 59,
+  "route_len_median": 272.5,
+  "route_len_max": 2266,
+  "routes_with_repeated_arcs": 10,
+  "routes_in_largest_strong": 80,
+  "obs_per_route_arc_median": 5.250381125226861,
+  "extent_km_median": 8.4031354382147,
+  "extent_km_max": 75.40427497844462,
+  "path_km_median": 24.065754225115192,
+  "path_km_max": 169.2666099059439,
+  "lon_range": [
+    -100.418538,
+    137.237029
+  ],
+  "lat_range": [
+    -34.640291,
+    61.69959
+  ],
+  "n_anomalies": 24,
+  "steps_gt250kmh": 157,
+  "trips_with_gt250kmh": 11,
+  "median_speed_kmh_range": [
+    20.25392122738549,
+    148.87904267379798
+  ]
+}

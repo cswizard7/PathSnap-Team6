@@ -1,0 +1,25 @@
+partition,trip,anomaly,detail
+train,00000001,implausible speed spike (GPS jump),"1 steps above 250 km/h (max 261 km/h, largest step 72 m)"
+train,00000006,large time gap,max gap 301 s (0.1 h)
+train,00000008,implausible speed spike (GPS jump),"1 steps above 250 km/h (max 253 km/h, largest step 70 m)"
+train,00000011,large time gap,max gap 909 s (0.3 h)
+train,00000013,implausible speed spike (GPS jump),"96 steps above 250 km/h (max 509 km/h, largest step 141 m)"
+train,00000021,large time gap,"max gap 2,161 s (0.6 h)"
+train,00000024,large time gap,max gap 458 s (0.1 h)
+train,00000032,implausible speed spike (GPS jump),"48 steps above 250 km/h (max 300 km/h, largest step 178 m)"
+train,00000033,implausible speed spike (GPS jump),"1 steps above 250 km/h (max 511 km/h, largest step 142 m)"
+train,00000033,route does not follow GPS,median GPS-to-route distance 122 m
+train,00000042,large time gap,max gap 670 s (0.2 h)
+train,00000043,implausible speed spike (GPS jump),"2 steps above 250 km/h (max 474 km/h, largest step 638 m)"
+train,00000044,large time gap,max gap 341 s (0.1 h)
+train,00000053,implausible speed spike (GPS jump),"1 steps above 250 km/h (max 256 km/h, largest step 302 m)"
+train,00000054,route does not follow GPS,median GPS-to-route distance 140 m
+train,00000057,implausible speed spike (GPS jump),"1 steps above 250 km/h (max 302 km/h, largest step 308 m)"
+train,00000069,large time gap,"max gap 2,658 s (0.7 h)"
+train,00000078,large time gap,"max gap 52,810 s (14.7 h)"
+train,00000079,implausible speed spike (GPS jump),"2 steps above 250 km/h (max 649 km/h, largest step 180 m)"
+train,00000081,large time gap,max gap 536 s (0.1 h)
+train,00000084,large time gap,max gap 312 s (0.1 h)
+train,00000090,large time gap,"max gap 153,064 s (42.5 h)"
+train,00000092,implausible speed spike (GPS jump),"3 steps above 250 km/h (max 306 km/h, largest step 85 m)"
+student_test,00000040,implausible speed spike (GPS jump),"1 steps above 250 km/h (max 262 km/h, largest step 73 m)"
