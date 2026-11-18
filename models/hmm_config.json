@@ -1,0 +1,10 @@
+{
+  "params": {
+    "beta": 2.0,
+    "emission_weight": 2.0
+  },
+  "tuned_on": "30 training trips, out-of-fold probabilities",
+  "objective": "observation-level top-1 accuracy",
+  "gap_seconds": 60.0,
+  "back_slack_m": 15.0
+}
